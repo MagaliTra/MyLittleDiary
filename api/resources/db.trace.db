@@ -1,0 +1,167 @@
+2023-12-07 13:01:32.452502+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-07 13:12:35.548444+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-07 13:20:30.122709+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-07 13:31:30.057983+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 22:08:15.967184+01:00 jdbc[43]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 22:11:17.096856+01:00 jdbc[48]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 22:32:27.493757+01:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:33:23.936246+01:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:33:45.925706+01:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:33:53.233271+01:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:35:12.781726+01:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:35:31.161606+01:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:35:44.937869+01:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:54:29.269010+01:00 jdbc[63]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:55:08.474472+01:00 jdbc[63]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:56:00.078610+01:00 jdbc[63]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:56:20.327455+01:00 jdbc[63]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:56:56.806296+01:00 jdbc[63]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:57:25.203719+01:00 jdbc[63]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 22:58:13.840487+01:00 jdbc[63]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:10:40.345775+01:00 jdbc[72]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:11:34.515820+01:00 jdbc[73]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:11:56.100583+01:00 jdbc[73]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:24:34.933410+01:00 jdbc[73]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:37:26.773331+01:00 jdbc[73]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:38:49.930294+01:00 jdbc[73]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:41:30.703709+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:49:13.615175+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"
+Value too long for column "DATE CHARACTER VARYING(255)": "'Registered on Sat Dec 09 2023 - Edited on Sat Dec 09 2023 - Edited on Sat Dec 0... (281)"; SQL statement:
+update note set date=?,nota_bene=?,note_text=?,priority=?,title=? where id=? [22001-224]
+2023-12-09 23:49:28.525169+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:50:18.728571+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:50:37.384580+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:50:56.092055+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:51:35.080428+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:51:48.136489+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:52:29.463365+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:53:11.529770+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:53:44.831300+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:53:55.981009+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:54:20.838698+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:54:39.961638+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:56:03.908152+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:56:12.423588+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:57:11.241273+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:57:19.239994+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:59:07.425562+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-09 23:59:27.393264+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-10 00:02:24.981783+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-10 00:04:52.081341+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-10 00:05:22.288868+01:00 jdbc[83]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-10 00:15:04.812053+01:00 jdbc[93]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]
+2023-12-23 19:29:06.474516+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: L'objet est déjà fermé
+The object is already closed [90007-224]

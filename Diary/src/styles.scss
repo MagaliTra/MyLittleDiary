@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+   background-color: whitesmoke;
+}
+
+#weather {
+   display: flex;
+   border: solid;
+   padding: 0.3rem;
+   border-radius: 1rem;
+   background-color: beige;
+   width: auto;
+   margin-top: 1.3rem;
+   margin-bottom:2rem ;
+   justify-content: center;
+}
+
+img{
+   width: 5rem;
+   height: 5rem;
+   margin-left: 1rem;
+}
+
+h1{
+   text-shadow: 2px 2px 2px white;
+}

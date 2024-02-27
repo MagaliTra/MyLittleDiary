@@ -1,0 +1,50 @@
+.newNoteButton {
+    float: right;
+    background-color: DarkMagenta;
+    color: white;
+    font-weight: bold;
+    padding-inline: 0.8rem;
+    padding-block: 0.2rem;
+    border-color: white; 
+    border-radius: 0.3rem;  
+}
+
+#register_button {
+    margin-right: 1rem;
+}
+
+
+.formButtons {
+    display:flex;
+}
+
+.newNoteButton:hover {
+    background-color: rgb(113, 34, 182);
+}
+
+.main {
+    margin-inline: 4rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reminder {
+    margin-top: 1rem;
+    margin-right: 3rem;
+    color: darkblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.myNewNoteContainer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#priority {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.priority_choices {
+    display: flex;
+}

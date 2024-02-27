@@ -1,0 +1,49 @@
+<main id="main" class="main">
+    <div id="reminder" class="reminder" [style.opacity]="isTheFormDisplayed ? 0.4 : 1"> 
+        <div id="weather">
+            <div>
+                <p><u>{{this.createdDate | date}}</u></p>
+                <p style="color: green">It's {{this.temp}} °C in Paris</p>
+            </div>
+        </div>
+        <p><b>The proverb of the day:</b></p>
+        <p> <i>{{this.proverb}}</i></p>
+        <p><b>{{this.urgentNoteTitle}}</b></p>
+    </div>
+    <div>
+        <button (click)="displayForm()" [style.display]="isTheFormDisplayed ? 'none' : 'block'" class="newNoteButton">New note</button>
+        <form id="form" [style.display]="isTheFormDisplayed ? 'block' : 'none'">
+            <p class="myNewNoteContainer">{{this.formTitle}}</p>
+            <input type="text" placeholder="Title" size="62" id="title">
+            <br/>
+            <br/>
+            <textarea id="story" name="story" rows="9" cols="59" placeholder="My note..."></textarea>
+            <br/>
+            <br/>
+            <textarea id="postscriptum" name="postscriptum" rows="3" cols="59" placeholder="Postscriptum..."></textarea>
+            <div id="priority">
+                <span style="font-weight: bold;">Priority:</span>
+                <div class="priority_choices">
+                    <div>
+                        <input type="radio" name="priority" id="normal" value="normal">
+                        <label for ="normal">Normal</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="priority" id="important" value="important">
+                        <label for ="important">Important</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="priority" id="urgent" value="urgent">
+                        <label for ="urgent">Urgent</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <br/>
+        <div class="formButtons">
+            <button id="register_button"  [style.display]="isTheFormDisplayed ? 'block' : 'none'" (click)=" updateAttempt ? update() : createNote()">{{this.formButtonValue}}</button>
+            <button id="register_button"  [style.display]="isTheFormDisplayed ? 'block' : 'none'" (click)="cancelUpdate()">Cancel</button>  
+        </div>
+        <div id="note" [style.opacity]="isTheFormDisplayed ? 0.4 : 1"></div>
+    </div>
+</main>
